@@ -35,7 +35,7 @@ body{
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 20px;
-    text-align: center;
+    align-items: center;
 
 }
 .nav-items-container a{
@@ -44,7 +44,124 @@ body{
 }
 .login-button{
     padding: 10px 30px;
+    border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.10)
+     
+}
+.banner-containar{
+    border: 1px solid #FFF;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    text-align: center;
+    margin: o auto;
+}
+.baner-text{
+width: 50%;
+
+}
+
+.banner img{
+    width: 60%;
+    text-align: center;
     
+
+}
+#got{
+    font-size: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner -img img{
+    width: 100%;
+    height: 100%;
+}
+.text-item{
+    justify-content: space-between;
+}
+.banner-button{
+    background-color: #FF42A5;
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 15;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+}
+.banner-buttone{
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.second-section{
+    border: solid green 1px;
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    text-align: right;
+
+}
+.secton-img{
+    width: 50%;
+
+}
+#pan-img{
+    width: 75%;
+}
+.section-imag{
     
+    width: 50%;
+    margin-right: 50px;
+
+}
+.text-style{
+    font-size: 45px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.pera-tag{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.buton-style{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.font-style{
+    font-size: 32px;
+    color: #534C64;;
+}
+.style-font{
+    font-size: 25px;
+
 }
